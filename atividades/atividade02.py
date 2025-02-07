@@ -7,38 +7,42 @@ ifrn = "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do 
 print(ifrn)
 
 #atividade 03
-numero = 20
+numero = int(input("Digite um número: "))
 print("o numero é:", numero)
 
 #atividade 04
-numero = 30 * 2
-print("o numero é:", numero)
+valor = float(input("digite um numero: "))
+numero = valor * 2
+
+print(f"o dobro é: {numero:.2f}")
 
 #atividade 05
-numerador = 1
-denominador = 2
+numerador = int(input("digite um numero: "))
+denominador = int(input("digite um numero: "))
 
 fracao = numerador / denominador
-print("o numero é:", fracao)
+print(f"o numero é: {fracao:.2f}")
 
 #atividade 06
-peso = 108
-altura = 1.80
+peso = float(input("digite um numero: "))
+altura = float(input("digite um numero: "))
 
 imc= peso / (altura*2)
-print("seu imc é:", imc)
+print(f"seu imc é: {imc:.2f}")
 
 #atividade 07
-nota1 = 7
-nota2 = 5
-nota3 = 9
+nota1 = float(input("digite um numero: "))
+nota2 = float(input("digite um numero: "))
+nota3 = float(input("digite um numero: "))
 
 media = (nota1 + nota2 + nota3) / 3
-print("a média é:",media)
+print(f"a média é: {media:.2f}")
 
 #atividade 08
-valor = 100 * 0.15
-print("o valor é:",valor)
+valor = float(input("digite um numero: "))
+resultado = valor * 0.15
+
+print(f"o valor é: {resultado:.2f}")
 
 #atividade 09
 venda = float(input("Digite o valor do produto: "))

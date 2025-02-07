@@ -7,14 +7,12 @@ ifrn = "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do 
 print(ifrn)
 
 #atividade 03
-numero = int(input("Digite um número: "))
+numero = 20
 print("o numero é:", numero)
 
 #atividade 04
-valor = float(input("digite um numero: "))
-numero = valor * 2
-
-print(f"o dobro é: {numero:.2f}")
+numero = 30 * 2
+print("o numero é:", numero)
 
 #atividade 05
 numerador = 1
@@ -31,18 +29,16 @@ imc= peso / (altura*2)
 print("seu imc é:", imc)
 
 #atividade 07
-nota1 = float(input("digite um numero: "))
-nota2 = float(input("digite um numero: "))
-nota3 = float(input("digite um numero: "))
+nota1 = 7
+nota2 = 5
+nota3 = 9
 
 media = (nota1 + nota2 + nota3) / 3
-print(f"a média é: {media:.2f}")
+print("a média é:",media)
 
 #atividade 08
-valor = float(input("digite um numero: "))
-resultado = valor * 0.15
-
-print(f"o valor é: {resultado:.2f}")
+valor = 100 * 0.15
+print("o valor é:",valor)
 
 #atividade 09
 venda = float(input("Digite o valor do produto: "))
