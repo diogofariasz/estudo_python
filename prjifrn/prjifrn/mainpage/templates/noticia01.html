@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>IFRN</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css/main.css'%}">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css/noticia.css'%}">
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="{% static 'img/logoifrn.png' %}" alt="IFRN Logo">
+        </div>
+        <nav class="navbar">
+
+            <div class="navbar-menu">
+                <div class="dropdown">
+                    <a href="#">Processos Seletivos</a>
+                    <div class="dropdown-content">
+                        <a href="#">Bolsas para Estudantes</a>
+                        <a href="#">Empreenda no IFRN</a>
+                        <a href="#">Estude no IFRN</a>
+                        <a href="#">Gestão do IFRN</a>
+                        <a href="#">Internacionalização</a>
+                        <a href="#">Monitoria e Tutoria</a>
+                        <a href="#">Pesquise no IFRN</a>
+                        <a href="#">Servidores</a>
+                        <a href="#">Trabalhe no IFRN</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Cursos</a>
+                    <div class="dropdown-content">
+                        <a href="#">Técnicos</a>
+                        <a href="#">Superiores</a>
+                        <a href="#">Pós-Graduação</a>
+                        <a href="#">Outros</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Campi</a>
+                    <div class="dropdown-content">
+                        <a href="#">Apodi</a>
+                        <a href="#">Caicó</a>
+                        <a href="#">Canguaretama</a>
+                        <a href="#">Natal Central</a>
+                        
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Institucional</a>
+                    <div class="dropdown-content">
+                        <a href="#">Apresentação</a>
+                        <a href="#">Administração</a>
+                        <a href="#">Comissões Permanentes</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="#">Acesso à Informação</a>
+                    <div class="dropdown-content">
+                        <a href="#">Serviço de Informação ao Cidadão</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="#">Eventos</a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Serviços</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="noticia-bloco">
+        <p class="noticia-categoria">Inovação</p>
+        <h1 class="noticia-titulo">Série especial destaca inovações do IFRN em propriedade intelectual e tecnologias patenteadas</h1>
+        <h2 class="noticia-subtitulo">Primeira matéria traz o Regulador Eletromagnético de Frequência</h2>
+        <p class="noticia-meta">
+            Publicada por Renan Gabriel em 06/05/2025 — Atualizada em 6 de Maio de 2025 às 22:51
+        </p>
+        <p class="noticia-conteudo">
+            Como parte da celebração do Dia da Propriedade Intelectual, o Núcleo de Jornalismo (Nujor), da Diretoria de Comunicação Institucional (Dici) do Instituto Federal do Rio Grande do Norte (IFRN) lança uma série especial sobre propriedade intelectual, destacando patentes e iniciativas desenvolvidas pela instituição. A primeira matéria da série traz o Regulador Eletromagnético de Frequência (REF), desenvolvido pelo professor Paulo Vítor Silva, do Campus Parnamirim, em parceria com o professor Ricardo Pinheiro, da Universidade Federal do Rio Grande do Norte (UFRN), e o empresário Nazareno Costa Júnior.
+        </p>
+    </div>
+
+    <center><a href="{% url 'main' %}">Voltar</a></center>
+
+</body>
+</html>
