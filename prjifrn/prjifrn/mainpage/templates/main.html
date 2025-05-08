@@ -11,11 +11,10 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <a href="{% url 'main' %}">Voltar</a>
     <!-- Navbar -->
     <header class="navbar">
         <div class="logo">
-            <img src="{% static 'img/logoifrn.png' %}" alt="IFRN Logo">
+            <a href="{% url 'main' %}"><img src="{% static 'img/logoifrn.png' %}" alt="IFRN Logo"></a>
         </div>
         <nav class="navbar">
 
